@@ -65,8 +65,7 @@
 
 }
 
-/* Fixes the flickering caused by the body height changing and realignment of
-   the box to the bottom of the page */
+/* Fixes the flickering */
 body {
     height: 100%;
     justify-content: flex-end;

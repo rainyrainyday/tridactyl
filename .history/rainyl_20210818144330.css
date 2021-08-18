@@ -24,17 +24,12 @@
     --tridactyl-highlight-box-fg: var(--base00);
 
     /* Hint character tags */
-    --tridactyl-hintspan-font-family: "FiraCode NF";
-    --tridactyl-hintspan-font-weight: 400;
+    --tridactyl-hintspan-fg: var(--base00) !important;
+    --tridactyl-hintspan-bg: var(--base08) !important;
     --tridactyl-hintspan-font-size: 12px;
-    --tridactyl-hintspan-fg: #fff;
-    --tridactyl-hintspan-bg: #c21647;
-    --tridactyl-hintspan-font-size: 12px;
-    --tridactyl-hintspan-border-color: #fff;
-    --tridactyl-hintspan-border-width: 1px;
-    --tridactyl-hintspan-border-style: solid;
-
-    --tridactyl-hintspan-js-background: var(--base04);
+    --tridactyl-hintspan-border-color
+    --tridactyl-hintspan-border-width
+    --tridactyl-hintspan-border-style
 
     /* Element Highlights */
     --tridactyl-hint-active-fg: none;
@@ -63,13 +58,6 @@
     --tridactyl-header-border-bottom: unset;
 
 
-}
-
-/* Fixes the flickering caused by the body height changing and realignment of
-   the box to the bottom of the page */
-body {
-    height: 100%;
-    justify-content: flex-end;
 }
 
 #command-line-holder {
@@ -188,8 +176,10 @@ body {
 /* Hints */
 
 span.TridactylHint {
+    font-size: 12px !important;
+    color: #fff !important;
+    background-color: #c21647 !important;
     padding: 3pt !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px !important;
     border-radius: 4px !important;
-    letter-spacing: 1px !important;
 }
