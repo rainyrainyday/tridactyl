@@ -74,11 +74,11 @@
     width: 80% !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px !important;
 }
-.TridactylOwnNamespace body {
+:root .TridactylOwnNamespace body {
     justify-content: flex-end;
 }
 
-.TridactylOwnNamespace a {
+:root .TridactylOwnNamespace a {
     color: var(--base0D);
 }
 
