@@ -202,7 +202,8 @@ span.TridactylHint {
     margin-left: -5px !important;
     font-size: 11px !important;
     font-family: "Cascadia Code" !important;
+    font-weight: bold !important;
     text-align: center !important;
     line-height: 14px !important;
-    animation: grow .2s;
+
 }
