@@ -33,6 +33,23 @@
     --tridactyl-hint-active-outline: none;
     --tridactyl-hint-bg: none;
     --tridactyl-hint-outline: none;
+    
+    --tridactyl-cmdl-font-size: 1.5rem;
+    --tridactyl-cmdl-line-height: 1.5;
+
+    --tridactyl-cmplt-option-height: 1.5em;
+    --tridactyl-cmplt-font-size: var(--tridactyl-small-font-size);
+    --tridactyl-cmplt-border-top: unset;
+
+    --tridactyl-status-font-size: 10px;
+    --tridactyl-status-font-family: "FiraCode NF", monospace;
+    --tridactyl-status-border: 1px var(--tridactyl-fg) solid;
+
+    --tridactyl-header-font-size: var(--tridactyl-small-font-size);
+    --tridactyl-header-font-weight: 200;
+    --tridactyl-header-border-bottom: unset;
+
+    --tridactyl-hintspan-font-size: var(--tridactyl-font-size);
 }
 
 #command-line-holder {    order: 1;
