@@ -116,11 +116,7 @@
 #completions table tr td.prefix,#completions table tr td.privatewindow,#completions table tr td.container,#completions table tr td.icon {    display: none;
 }
 
-#completions .BufferCompletionSource table {    width: unset;
-    font-size: unset;
-    border-spacing: unset;
-    table-layout: unset;
-}
+#completions .BufferCompletionSource table { }
 
 #completions table tr .title {    width: 50%;
 }
