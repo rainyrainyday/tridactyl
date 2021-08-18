@@ -17,7 +17,7 @@
     --base0F: #b18a3d;
 
     --tridactyl-fg: var(--base05);
-    --tridactyl-bg: var(--base00);
+    --tridactyl-bg: var(--base02);
     --tridactyl-url-fg: var(--base08);
     --tridactyl-url-bg: var(--base00);
     --tridactyl-highlight-box-bg: var(--base0B);
@@ -34,7 +34,7 @@
     --tridactyl-hint-bg: none;
     --tridactyl-hint-outline: none;
     
-     --tridactyl-font-family: "SF Pro", sans-serif;
+    --tridactyl-font-family: "Consolas", sans-serif;
     
     --tridactyl-cmdl-font-size: 1.2rem;
     --tridactyl-cmdl-line-height: 1.5;
@@ -44,8 +44,8 @@
     --tridactyl-cmplt-border-top: unset;
 
     --tridactyl-status-font-size: 10px;
-    --tridactyl-status-font-family: "FiraCode NF Italic", monospace;
-    --tridactyl-status-border: 1px var(--tridactyl-fg) solid;
+    --tridactyl-status-font-family: "SF Pro";
+    --tridactyl-status-border: none;
 
     --tridactyl-header-font-size: var(--tridactyl-small-font-size);
     --tridactyl-header-font-weight: 200;
@@ -88,7 +88,7 @@
     color: var(--tridactyl-fg);
     background: var(--tridactyl-bg);
     display: inline-block;
-    font-size: unset;
+    font-size: 10px;
     font-weight: 200;
     overflow: hidden;
     width: 100%;
@@ -150,9 +150,7 @@
     bottom: 0 !important;
     background: var(--tridactyl-bg) !important;
     border: unset !important;
-    border: 1px var(--base0B) solid !important;
-    font-size: 12pt !important;
-    /*font-weight: 200 !important;*/
+    font-size: 10px !important;
     padding: 0.8ex !important;
 }
 
@@ -162,6 +160,10 @@
 
 #completions .focused .url {    background: var(--base0B);
     color: var(--base00);
+}
+
+#completions > div > table {
+    font-size: 10pt
 }
 /* #Ocean-normal { */
 /*  border-color: green !important; */
