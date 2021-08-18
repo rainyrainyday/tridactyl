@@ -65,40 +65,38 @@
 
 }
 
-:root #cmdline_iframe {
+#cmdline_iframe {
     position: fixed !important;
-    bottom: unset;
-    top: 25% !important;
-    left: 10% !important;
     z-index: 2147483647 !important;
-    width: 80% !important;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px !important;
 }
-:root .TridactylOwnNamespace body {
+
+.TridactylOwnNamespace body {
     justify-content: flex-end;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px !important;
 }
 
-:root .TridactylOwnNamespace a {
+.TridactylOwnNamespace a {
     color: var(--base0D);
 }
 
-:root #command-line-holder {
+#command-line-holder {
     order: 1;
     border: 2px solid var(--base0B);
+    color: var(--tridactyl-bg);
+}
+
+#tridactyl-input {
+    padding: 1rem;
     color: var(--tridactyl-fg);
+    width: 90%;
+    font-size: 1.5rem;
+    line-height: 1.5;
     background: var(--tridactyl-bg);
+    padding-left: unset;
+    padding: 1rem;
 }
 
-:root #tridactyl-colon {
-    font-size: 24px;
-}
-
-:root #tridactyl-input {
-
-}
-
-:root #completions table {
+#completions table {
     border-spacing: 0;
     table-layout: fixed;
     padding: 1rem;
