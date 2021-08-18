@@ -17,7 +17,7 @@
     --base0F: #b18a3d;
 
     --tridactyl-fg: var(--base05);
-    --tridactyl-bg: var(--base02);
+    --tridactyl-bg: var(--base01);
     --tridactyl-url-fg: var(--base08);
     --tridactyl-url-bg: var(--base00);
     --tridactyl-highlight-box-bg: var(--base0B);
@@ -40,6 +40,7 @@
     --tridactyl-cmdl-line-height: 1.5;
 
     --tridactyl-cmplt-option-height: 1.5em;
+    --tridactyl-cmplt-font-family: "FiraCode NF";
     --tridactyl-cmplt-font-size: var(--tridactyl-small-font-size);
     --tridactyl-cmplt-border-top: unset;
 
@@ -129,12 +130,17 @@
     text-overflow: ellipsis;
 }
 
-#completions .sectionHeader {    background: unset;
-    font-weight: 200;
-    border-bottom: unset;
-    padding: 1rem !important;
-    padding-left: unset;
-    padding-bottom: 0.2rem;
+#completions .sectionHeader {    
+    background: var(--base01);
+    font-weight: 800;
+    border-bottom: 1px solid var(--base0D);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-family: "SF Pro";
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--base0D);
 }
 
 #cmdline_iframe {    position: fixed !important;
