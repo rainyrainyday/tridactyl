@@ -32,15 +32,14 @@
     --tridactyl-hintspan-border-color: #fff;
     --tridactyl-hintspan-border-width: 1px;
     --tridactyl-hintspan-border-style: solid;
-
-    --tridactyl-hintspan-js-background: var(--base04);
+    --tridactyl-hint-outline: ;
 
     /* Element Highlights */
-    --tridactyl-hint-active-fg: none;
-    --tridactyl-hint-active-bg: none;
-    --tridactyl-hint-active-outline: none;
-    --tridactyl-hint-bg: none;
-    --tridactyl-hint-outline: none;
+    --tridactyl-hint-active-fg: var(--base01);
+    --tridactyl-hint-active-bg: var(--base0B);
+    --tridactyl-hint-active-outline: 1px solid #000;
+    --tridactyl-hint-bg: rgba(255, 208, 0, 0.25);
+    --tridactyl-hint-outline: 1px solid var(--tridactyl-hintspan-bg);
     
     --tridactyl-font-family: "Consolas", sans-serif;
 
