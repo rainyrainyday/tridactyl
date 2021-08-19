@@ -32,15 +32,16 @@
     --tridactyl-hintspan-border-color: #fff;
     --tridactyl-hintspan-border-width: 1px;
     --tridactyl-hintspan-border-style: solid;
-    --tridactyl-hint-outline: ;
+
+    --tridactyl-hintspan-js-background: var(--base04);
 
     /* Element Highlights */
-    --tridactyl-hint-active-fg: none;
-    --tridactyl-hint-active-bg: none;
-    --tridactyl-hint-active-outline: 1px solid #000;
-    --tridactyl-hint-bg: rgba(255, 208, 0, 0.123);
-    --tridactyl-hint-outline: 1px solid var(--tridactyl-hintspan-bg);
-
+    --tridactyl-hint-active-fg: var(--base00);
+    --tridactyl-hint-active-bg: var(--base09);
+    --tridactyl-hint-active-outline: none;
+    --tridactyl-hint-bg: none;
+    --tridactyl-hint-outline: none;
+    
     --tridactyl-font-family: "Consolas", sans-serif;
 
     --tridactyl-cmdl-font-family: "FiraCode NF";
@@ -203,7 +204,7 @@ span.TridactylHint {
     animation: grow .2s cubic-bezier(.68,-0.55,.27,1.55);
 }
 
-.TridactylOwnNamespace .TridactylHintActive {
-    color: var(--base00) !important;
-    background-color: var(--base0B) !important;
+.TridactylHintElem {
+    color: unset;
+
 }

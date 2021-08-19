@@ -35,12 +35,12 @@
     --tridactyl-hint-outline: ;
 
     /* Element Highlights */
-    --tridactyl-hint-active-fg: none;
-    --tridactyl-hint-active-bg: none;
+    --tridactyl-hint-active-fg: var(--base01);
+    --tridactyl-hint-active-bg: var(--base0B);
     --tridactyl-hint-active-outline: 1px solid #000;
-    --tridactyl-hint-bg: rgba(255, 208, 0, 0.123);
+    --tridactyl-hint-bg: rgba(255, 208, 0, 0.25);
     --tridactyl-hint-outline: 1px solid var(--tridactyl-hintspan-bg);
-
+    
     --tridactyl-font-family: "Consolas", sans-serif;
 
     --tridactyl-cmdl-font-family: "FiraCode NF";
@@ -201,9 +201,4 @@ span.TridactylHint {
     text-align: center !important;
     line-height: 14px !important;
     animation: grow .2s cubic-bezier(.68,-0.55,.27,1.55);
-}
-
-.TridactylOwnNamespace .TridactylHintActive {
-    color: var(--base00) !important;
-    background-color: var(--base0B) !important;
 }
