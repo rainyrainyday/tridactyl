@@ -20,15 +20,16 @@
     --tridactyl-bg: var(--base01);
     --tridactyl-url-fg: var(--base08);
     --tridactyl-url-bg: var(--base00);
-    --tridactyl-highlight-box-bg: var(--base00);
-    --tridactyl-highlight-box-fg: var(--base07);
+    --tridactyl-highlight-box-bg: var(--base0B);
+    --tridactyl-highlight-box-fg: var(--base00);
 
     /* Hint character tags */
-    --tridactyl-hintspan-font-family: "Cascadia Code";
+    --tridactyl-hintspan-font-family: "FiraCode NF";
     --tridactyl-hintspan-font-weight: 400;
-    --tridactyl-hintspan-font-size: 11px;
+    --tridactyl-hintspan-font-size: 12px;
     --tridactyl-hintspan-fg: #fff;
     --tridactyl-hintspan-bg: #c21647;
+    --tridactyl-hintspan-font-size: 12px;
     --tridactyl-hintspan-border-color: #fff;
     --tridactyl-hintspan-border-width: 1px;
     --tridactyl-hintspan-border-style: solid;
@@ -199,6 +200,8 @@ span.TridactylHint {
     letter-spacing: 1px !important;
     margin-top: -5px !important;
     margin-left: -5px !important;
+    font-size: 11px !important;
+    font-family: "Cascadia Code" !important;
     text-align: center !important;
     line-height: 14px !important;
     animation: grow .2s cubic-bezier(.68,-0.55,.27,1.55);
